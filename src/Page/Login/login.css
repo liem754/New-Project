@@ -1,0 +1,100 @@
+.login {
+  background-image: url("https://images.getstark.co/web-app/masi-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.content {
+  width: 450px;
+
+  background-color: #fff;
+  border-radius: 10px;
+}
+.khung {
+  padding: 50px 70px;
+}
+.khung-form input,
+.input2 {
+  width: 100%;
+  height: 45px;
+  padding-left: 12px;
+}
+.khung-btn {
+  width: 100%;
+  margin-top: 20px;
+  height: 45px;
+}
+.khung-p {
+  width: 100%;
+  padding: 20px 0 30px 0;
+  border-bottom: 1px solid #333;
+}
+.khung-logo {
+  color: #381fd1;
+}
+.dau {
+  /* margin-top: 20px; */
+  border-radius: 4px;
+  background-color: #fff;
+}
+.hai {
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.ba {
+  background-color: #381fd1;
+  color: #fff;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  border: none;
+}
+.hai:hover {
+  opacity: 0.8;
+}
+.ba:hover {
+  opacity: 0.8;
+}
+.sc {
+  margin-top: -5px;
+  margin-right: 8px;
+}
+.input2 {
+  height: 45px;
+  background-color: #4540e5;
+  border-radius: 4px;
+  color: #fff;
+}
+.khung-form {
+  text-align: left;
+  padding: 30px 0;
+  border-top: 1px solid #333;
+}
+.khung-formm {
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.khung-formm input {
+  width: 100%;
+  height: 45px;
+  padding-left: 12px;
+}
+.hai svg {
+  margin-top: -5px;
+  margin-right: 8px;
+}
+.input1 {
+  display: block;
+  background-color: #fff;
+  margin-left: 240px;
+  margin-bottom: 10px;
+}
+.ko {
+  border-bottom: none;
+}

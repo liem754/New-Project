@@ -1,0 +1,32 @@
+.l-left {
+  text-align: left;
+}
+.ll {
+  text-align: left;
+  width: 600px;
+}
+
+.ll2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+.ll3 {
+  padding-top: 30px;
+}
+.svv {
+  margin-top: -30px;
+  width: 60px;
+  height: auto;
+}
+.le {
+  text-align: left;
+}
+@media (max-width: 740px) {
+  .svv {
+    width: 100%;
+  }
+}
+.ol {
+  text-align: center;
+}

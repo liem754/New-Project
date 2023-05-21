@@ -1,0 +1,71 @@
+.library-duoi {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.library-tren {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.tren-tii {
+  margin: 0;
+}
+.tren-trai p {
+  margin: 8px 0 25px 0;
+}
+.duoi-item {
+  display: block;
+  text-decoration: none;
+  width: 240px;
+  padding-bottom: 30px;
+  border: 1px solid #e8e8e9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 1 1 1;
+}
+.item-trong {
+  padding: 10px 16px;
+}
+.item-img {
+  width: 40px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+.tren-link {
+  display: block;
+}
+
+.item-box {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: blue;
+  font-size: 16px;
+}
+
+.item-h {
+  max-width: 180px;
+  font-size: 20px;
+  margin: 7px 0;
+  color: black;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.library-phai {
+  margin-top: 40px;
+}
+.library-tren a {
+  display: block;
+  margin-top: 10px;
+}
+.headline {
+  text-decoration: none;
+  margin-bottom: -70px;
+  color: black;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 30px;
+}

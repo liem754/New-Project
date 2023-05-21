@@ -1,0 +1,258 @@
+.all-home {
+  width: 100%;
+
+  background: linear-gradient(
+      to bottom left,
+      rgba(58, 31, 211, 0.2) 60%,
+      rgba(195, 89, 133)
+    ),
+    linear-gradient(to bottom, rgba(58, 31, 211) 60%, rgb(174, 142, 141, 0.8)),
+    linear-gradient(to right, #3a1fd3, #ae8e8d, #3a1fd3);
+}
+.header-bot {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.trai {
+  flex: 1;
+  height: 300px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.phai {
+  margin-left: -80px;
+  flex: 1;
+  width: 600px;
+  height: 600px;
+  background-image: url("https://images.getstark.co/marketing/headers/homepage__052023.webp");
+
+  background-size: 600px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.trai-header {
+  text-align: left;
+  color: #ccab7f;
+  font-weight: 400;
+  font-size: 20px;
+}
+.trai-body {
+  width: 400px;
+  color: #ffffff;
+  font-size: 64px;
+  text-align: left;
+  font-weight: 900;
+  margin: 0;
+}
+.trai-text {
+  width: 460px;
+  text-align: left;
+  color: #fff;
+  line-height: 30px;
+}
+.trai-btn {
+  margin-top: 30px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+}
+.btn1,
+.btn2 {
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+.btn1 {
+  text-decoration: none;
+  font-size: 14px;
+  color: #3a1fd1;
+  background-color: #fedb63;
+}
+.btn1:hover {
+  opacity: 0.8;
+}
+.btn2 {
+  background-color: transparent;
+  color: #fedb63;
+  border: 2px solid #fedb63;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn2:hover {
+  background-color: #fedb63;
+  color: #757454;
+}
+.img {
+  margin-top: -20px;
+  margin-left: 30px;
+  width: 150px;
+  height: 150px;
+}
+.imgg {
+  opacity: 0;
+  width: 60px;
+  position: absolute;
+  top: 425px;
+  left: 50px;
+  animation: hien 1s linear 4s forwards;
+}
+.imgg2 {
+  opacity: 0;
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  top: 423px;
+  right: 16px;
+  animation: hien 1s linear 2s forwards;
+}
+
+@keyframes hien {
+  to {
+    opacity: 1;
+  }
+}
+.home-mau {
+  margin-top: 40px;
+  background-color: #f6f6eb;
+}
+.home-tim {
+  width: 445px;
+  margin-top: -100px;
+}
+.home-xanh {
+  margin-top: 160px;
+}
+.home-tt {
+  width: 1300px;
+  margin: 0 auto;
+}
+.home-h1 {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.home-p {
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 600;
+  width: 570px;
+  line-height: 28px;
+}
+.home-h11 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+}
+.home-xuong {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.home-aut {
+  width: 1000px;
+  position: absolute;
+  top: 70px;
+  left: 170px;
+}
+.home-aut img {
+  width: 100%;
+  height: 650px;
+  border-radius: 20px;
+}
+.home-aut .video-container {
+  width: 100%;
+  height: 650px;
+  border-radius: 20px;
+  z-index: 100;
+}
+.nutt {
+  position: absolute;
+  top: 300px;
+  left: 47%;
+}
+.video-container .wi {
+  border-radius: 20px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.companies__scroll {
+  overflow: hidden;
+  animation: truot 240s linear infinite;
+  width: max-content;
+  margin: 100px 0;
+}
+.companies__scroll svg {
+  flex-shrink: 0;
+  margin: 0 50px;
+}
+.ck {
+}
+@keyframes truot {
+  100% {
+    transform: translateX(-5091px);
+  }
+}
+.cot {
+  text-align: left;
+}
+.cot1 {
+  display: flex;
+  justify-content: right;
+}
+.col-img {
+  width: 560px;
+  height: 560px;
+  background-color: #8ed1de;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-right: 0;
+}
+.col-img img {
+  margin-top: 85px;
+  margin-left: 50px;
+  width: 515px;
+  height: 600px;
+  transition: all 1s linear;
+}
+/* @keyframes len {
+  from {
+    margin-top: 75px;
+  }
+  to {
+    margin-top: 35px;
+  }
+} */
+.l:hover .col-img img {
+  margin-top: 35px;
+}
+.h11 {
+  font-size: 50px;
+  font-weight: 900;
+
+  margin: 0 auto;
+}
+.pp {
+  font-size: 14px;
+  font-weight: 500;
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.col-btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: #3a1fd3;
+  padding: 6px 50px;
+  border-radius: 5px;
+}
+.l {
+  margin-bottom: 50px;
+}

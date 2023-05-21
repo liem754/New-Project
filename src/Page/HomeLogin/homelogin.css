@@ -1,0 +1,48 @@
+.ho-ol {
+  width: 550px;
+  display: flex;
+  background-color: #f8f5ee;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.looo {
+  width: 550px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #999;
+}
+.homelogin {
+  width: 100%;
+  text-align: left;
+  padding: 80px 30px;
+}
+.headline {
+  font-size: 20px;
+  font-weight: 700;
+}
+.ho-btn {
+  background-color: blue;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 6px;
+  border-radius: 4px;
+}
+.ho-h3 {
+  margin: 20px 0 10px 0;
+}
+.ho-tt {
+  text-decoration: none;
+  display: block;
+  width: 550px;
+  padding: 20px 30px;
+  background-color: #fafafa;
+  color: #000;
+}
+.ho-p {
+  margin: 0;
+  color: blue;
+}
+.ho-pp {
+  margin: 0;
+}

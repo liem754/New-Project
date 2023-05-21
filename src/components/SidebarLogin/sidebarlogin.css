@@ -1,0 +1,74 @@
+.sidelogin {
+  width: 330px;
+  height: 100vh;
+  padding: 20px 25px;
+  overflow-y: scroll;
+}
+.side-list {
+  width: 100%;
+  list-style: none;
+  padding-left: 0;
+  border-bottom: 1px solid #999;
+}
+.side-item,
+.side-item2 {
+  margin: 4px 0;
+}
+.side-item a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: 12px 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.side-item a:hover {
+  background-color: #f3f2fc;
+}
+.sideicon {
+  margin-right: 12px;
+}
+
+.side-list2 {
+  width: 100%;
+  list-style: none;
+  padding-left: 0;
+}
+.side-item2 a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: 12px 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.side-item2 a:hover {
+  background-color: #f3f2fc;
+  color: blue;
+}
+.noi {
+  height: 700px;
+}
+.ten {
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.ten a {
+  font-size: 20px;
+}
+.ten .sideicon {
+  color: blue;
+}
+.side-item .mauu {
+  color: blue;
+}
+.btn-ho {
+  display: block;
+  margin-left: -160px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
