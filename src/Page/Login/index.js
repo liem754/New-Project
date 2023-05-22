@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./login.css";
 import { Link, useNavigate } from "react-router-dom";
-
+import React from "react";
 import firebase from "../Firebase/config";
 import { auth, db } from "../Firebase/config";
 import {

@@ -1,4 +1,5 @@
 import "./collection.css";
+import React from "react";
 function Collection() {
   return (
     <div className="container">

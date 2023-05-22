@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Pricing from "../Page/Pricing";
 import Footer from "../components/Footer";
 import "./default.css";
+import React from "react";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMessage } from "@fortawesome/free-solid-svg-icons";

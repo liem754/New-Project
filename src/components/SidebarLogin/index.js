@@ -3,6 +3,7 @@ import {
   faRectangleXmark,
 } from "@fortawesome/free-regular-svg-icons";
 import "./sidebarlogin.css";
+import React from "react";
 import {
   faBarsProgress,
   faCircleUser,

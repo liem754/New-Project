@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import bootstrap from "bootstrap";
 import "./home.css";
 import video1 from "./video/video1.mp4";
+import React from "react";
 
 import { Link } from "react-router-dom";
 function Home() {

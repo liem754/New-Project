@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./header.module.scss";
 import { Link, Route, Routes } from "react-router-dom";
 import Pricing from "../../Page/Pricing";
-
+import React from "react";
 import clsx from "clsx";
 import { useState } from "react";
 function Header({ Page }) {

@@ -1,4 +1,5 @@
 import SidebarLogin from "../SidebarLogin";
+import React from "react";
 import "./defaultlogin.css";
 function DefaultLogin({ children, mau }) {
   return (

@@ -1,5 +1,5 @@
 import clsx from "clsx";
-
+import React from "react";
 import styles from "./Footer.module.scss";
 import "./footer.css";
 import "./grid.css";

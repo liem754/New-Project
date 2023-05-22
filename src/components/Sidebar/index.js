@@ -4,6 +4,7 @@ import {
   faChevronUp,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./sidebar.css";
 import { useRef, useState } from "react";

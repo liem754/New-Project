@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import React from "react";
 import "./pricing.css";
 import { useEffect, useRef } from "react";
 function Pricing({ ku }) {

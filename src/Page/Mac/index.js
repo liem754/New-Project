@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import ReactPlayer from "react-player";
 import bootstrap from "bootstrap";
 import "./mac.css";
-
+import React from "react";
 function Mac() {
   const [video, setvideo] = useState(false);
   const lu = useRef();

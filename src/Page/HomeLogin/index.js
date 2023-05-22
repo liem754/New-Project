@@ -1,4 +1,5 @@
 import "./homelogin.css";
+import React from "react";
 function HomeLogin() {
   return (
     <div className="homelogin">
